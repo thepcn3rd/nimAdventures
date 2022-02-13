@@ -1,0 +1,15 @@
+# Ignore Everything to capture the linux binaries
+*
+# Ignore Windows EXEs created
+*.exe
+# Do not ignore the nim files
+!amsiBypassObfuscator.nim
+!httpServer.nim
+!portScanner.nim
+!procDump.nim
+!tcpReverseShell.nim
+!README.md
+!.gitignore
+!removeCommits.sh
+# Do not ignore the directories created
+!*/
